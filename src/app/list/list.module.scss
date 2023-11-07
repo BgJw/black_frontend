@@ -1,0 +1,24 @@
+.wrap {
+    width: 70%;
+    display: grid;
+    justify-items: center;
+    margin: 0 auto;
+
+
+
+    ul li{
+        width: 100px;
+        height: 45px;
+        border: 1px solid black;
+        text-align: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+}
